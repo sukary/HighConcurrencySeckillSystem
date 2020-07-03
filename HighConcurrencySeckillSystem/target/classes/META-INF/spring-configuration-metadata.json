@@ -1,0 +1,67 @@
+{
+  "groups": [
+    {
+      "name": "redisson",
+      "type": "com.github.seckillsystem.common.redis.RedissonProperties",
+      "sourceType": "com.github.seckillsystem.common.redis.RedissonProperties"
+    },
+    {
+      "name": "secure.ignored",
+      "type": "com.github.seckillsystem.common.security.config.IgnoreUrlsConfig",
+      "sourceType": "com.github.seckillsystem.common.security.config.IgnoreUrlsConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "redisson.address",
+      "type": "java.lang.String",
+      "sourceType": "com.github.seckillsystem.common.redis.RedissonProperties"
+    },
+    {
+      "name": "redisson.connection-minimum-idle-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.github.seckillsystem.common.redis.RedissonProperties",
+      "defaultValue": 10
+    },
+    {
+      "name": "redisson.connection-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.github.seckillsystem.common.redis.RedissonProperties",
+      "defaultValue": 64
+    },
+    {
+      "name": "redisson.master-connection-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.github.seckillsystem.common.redis.RedissonProperties",
+      "defaultValue": 250
+    },
+    {
+      "name": "redisson.master-name",
+      "type": "java.lang.String",
+      "sourceType": "com.github.seckillsystem.common.redis.RedissonProperties"
+    },
+    {
+      "name": "redisson.password",
+      "type": "java.lang.String",
+      "sourceType": "com.github.seckillsystem.common.redis.RedissonProperties"
+    },
+    {
+      "name": "redisson.slave-connection-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.github.seckillsystem.common.redis.RedissonProperties",
+      "defaultValue": 250
+    },
+    {
+      "name": "redisson.timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.github.seckillsystem.common.redis.RedissonProperties",
+      "defaultValue": 3000
+    },
+    {
+      "name": "secure.ignored.urls",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.github.seckillsystem.common.security.config.IgnoreUrlsConfig"
+    }
+  ],
+  "hints": []
+}

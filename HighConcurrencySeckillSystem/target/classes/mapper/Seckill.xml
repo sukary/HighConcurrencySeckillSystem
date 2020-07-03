@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.github.seckillsystem.dao.SeckillMapper">
+    <select id="selectNumBySeckillId" resultType="java.lang.Integer">
+        select num
+        from seckill
+        where seckill_id = #{seckillId}
+    </select>
+
+    <update id="deleteOneBySeckillId">
+        update seckill
+        set num = num -1
+        where seckill_id = #{seckillId}
+    </update>
+
+    <insert id="insertOrder">
+        insert into seckill_order(seckill_id,user_id,create_time,state)
+        values (#{seckillId},#{userId},#{createTime},#{state})
+    </insert>
+    
+    <select id="getSuccessNum" resultType="java.lang.Integer">
+        select count(*) from
+        seckill_order where seckill_id =#{seckillId}
+    </select>
+    <select id="selectNumForUpdate" resultType="java.lang.Integer">
+        select num
+        from seckill
+        where seckill_id = #{seckillId}
+        for update
+    </select>
+    <select id="selectNumByOpLock" resultType="com.github.seckillsystem.entity.Seckill">
+        select num, version
+        from seckill
+        where seckill_id = #{seckillId}
+    </select>
+    <update id="updateByOpLock">
+        update seckill
+        set num = num-1,version = version+1
+        where seckill_id = #{seckillId} and
+        version = #{version}
+    </update>
+</mapper>

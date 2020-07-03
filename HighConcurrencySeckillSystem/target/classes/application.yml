@@ -1,0 +1,66 @@
+server:
+  port: 8083
+  servlet:
+    session:
+      timeout: 60    # session最大超时时间(分钟)，默认为30
+  tomcat:
+    max-threads: 150 # tomcat最大线程数，默认为200
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/learn_seckill?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 199630
+  redis:
+    host: localhost # Redis服务器地址
+    database: 0 # Redis数据库索引（默认为0）
+    port: 6379 # Redis服务器连接端口
+    password: 199630 # Redis服务器连接密码（默认为空）
+    jedis:
+      pool:
+        max-active: 8 # 连接池最大连接数（使用负值表示没有限制）  根据并发请求合理设置
+        max-wait: -1ms # 连接池最大阻塞等待时间（使用负值表示没有限制）
+        max-idle: 8 # 连接池中的最大空闲连接  根据并发请求合理设置
+        min-idle: 0 # 连接池中的最小空闲连接  保持一定的空闲连接数，这样可以保证客户端可快速的获取连接对象。
+
+# redisson lock
+redisson:
+  address: redis://127.0.0.1:6379
+  password: 199630
+
+secure:
+  ignored:
+    urls: #安全路径白名单
+      - /swagger-ui.html
+      - /swagger-resources/**
+      - /swagger/**
+      - /**/v2/api-docs
+      - /**/*.js
+      - /**/*.css
+      - /**/*.png
+      - /**/*.ico
+      - /webjars/springfox-swagger-ui/**
+      - /actuator/**
+      - /druid/**
+      - /admin/login
+      - /admin/register
+      - /admin/info
+      - /admin/logout
+      - /minio/upload
+      - /red/packet/start
+      - /red/packet/start2
+      - /seckill/start
+      - /seckill/start2
+      - /seckill/start/three
+      - /seckill/start/four
+
+mybatis:
+  mapper-locations:
+    - classpath:mapper/*.xml
+    - classpath:com/**/mapper/*.xml
+
+jwt:
+  tokenHeader: Authorization #JWT存储的请求头
+  secret: mall-admin-secret #JWT加解密使用的密钥
+  expiration: 604800 #JWT的超期限时间(60*60*24*7)
+  tokenHead: Bearer  #JWT负载中拿到开头

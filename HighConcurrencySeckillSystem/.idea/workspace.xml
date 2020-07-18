@@ -1,7 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8130c33-34b5-443e-973b-e9299d2bb6a3" name="Default Changelist" comment="" />
+    <list default="true" id="f8130c33-34b5-443e-973b-e9299d2bb6a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/seckillsystem/controller/DistributedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/seckillsystem/service/Impl/SeckillDistributedServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/seckillsystem/service/SeckillDistributedService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/seckillsystem/util/ZkLockUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/seckillsystem/controller/RedPacketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/seckillsystem/controller/RedPacketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/seckillsystem/queue/activemq/ActiveMqConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/seckillsystem/queue/activemq/ActiveMqConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/seckillsystem/queue/activemq/ActiveMqSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/seckillsystem/queue/activemq/ActiveMqSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/LearnSeckillApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/LearnSeckillApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/common/CommonResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/common/CommonResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/common/CommonResultCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/common/CommonResultCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/common/redis/RedisUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/common/redis/RedisUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/common/redis/RedissonAutoConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/common/redis/RedissonAutoConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/common/redis/RedissonProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/common/redis/RedissonProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/common/security/component/DynamicAccessDecisionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/common/security/component/DynamicAccessDecisionManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/common/security/component/DynamicSecurityFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/common/security/component/DynamicSecurityFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/common/security/component/DynamicSecurityMetadataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/common/security/component/DynamicSecurityMetadataSource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/common/security/component/HttpAccessDeniedHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/common/security/component/HttpAccessDeniedHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/common/security/component/JwtAuthenticationTokenFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/common/security/component/JwtAuthenticationTokenFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/common/security/component/RestAuthenticationEntryPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/common/security/component/RestAuthenticationEntryPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/common/security/config/IgnoreUrlsConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/common/security/config/IgnoreUrlsConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/common/security/config/SeckillSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/common/security/config/SeckillSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/common/security/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/common/security/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/common/webSocket/WebSocketServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/common/webSocket/WebSocketServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/config/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/config/RedisConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/controller/RedPacketController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/controller/RedPacketController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/controller/SeckillController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/controller/SeckillController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/dao/SeckillMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/dao/SeckillMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/dao/UserAdminMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/dao/UserAdminMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/entity/AdminUserDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/entity/AdminUserDetails.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/entity/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/entity/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/entity/RedPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/entity/RedPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/entity/Seckill.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/entity/Seckill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/entity/UmsResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/entity/UmsResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/entity/UserAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/entity/UserAdmin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/entity/UserAdminLoginParams.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/entity/UserAdminLoginParams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/entity/UserAdminParam.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/entity/UserAdminParam.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/queue/MyBlockingQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/queue/MyBlockingQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/queue/activemq/ActiveMqConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/queue/activemq/ActiveMqConsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/queue/activemq/ActiveMqSender.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/queue/activemq/ActiveMqSender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/queue/delay/jvm/RedPacketDelayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/queue/delay/jvm/RedPacketDelayQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/queue/delay/jvm/RedPacketMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/queue/delay/jvm/RedPacketMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/queue/delay/jvm/RedPacketQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/queue/delay/jvm/RedPacketQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/queue/delay/jvm/TaskRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/queue/delay/jvm/TaskRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/queue/delay/redis/RedPacketDelayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/queue/delay/redis/RedPacketDelayQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/queue/delay/redis/RedisRedPacketMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/queue/delay/redis/RedisRedPacketMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/service/Impl/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/service/Impl/AdminServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/service/Impl/RedPacketServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/service/Impl/RedPacketServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/service/Impl/SeckillServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/service/Impl/SeckillServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/service/Impl/UmsResourceServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/service/Impl/UmsResourceServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/service/RedPacketService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/service/RedPacketService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/service/SeckillService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/service/SeckillService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/service/UmsResourceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/service/UmsResourceService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/service/UserAdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/service/UserAdminService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/util/DoubleUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/util/DoubleUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/util/JwtTokenUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/util/JwtTokenUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/util/RedisLockUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/seckillsystem/util/RedisLockUtil.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +79,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -29,6 +92,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1cGTSkXxbqBjl6efuB2kwxdJOzg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -61,11 +125,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.github.seckillsystem.controller" />
       <recent name="com.github.seckillsystem.queue.delay.redis" />
       <recent name="com.github.seckillsystem.queue.delay.jvm" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.LearnSeckillApplication">
+  <component name="RunManager" selected="Spring Boot.LearnSeckillApplication (1)">
     <configuration name="MyBlockingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.seckillsystem.queue.MyBlockingQueue" />
       <module name="learn-seckill" />
@@ -75,6 +140,19 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LearnSeckillApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="HighConcurrencySeckillSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.seckillsystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.seckillsystem.LearnSeckillApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -92,8 +170,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.MyBlockingQueue" />
+      <item itemvalue="Spring Boot.LearnSeckillApplication" />
+      <item itemvalue="Spring Boot.LearnSeckillApplication (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.LearnSeckillApplication (1)" />
         <item itemvalue="Spring Boot.LearnSeckillApplication" />
         <item itemvalue="Application.MyBlockingQueue" />
       </list>
@@ -139,6 +223,7 @@
       <workItem from="1592704832965" duration="584000" />
       <workItem from="1592789282167" duration="600000" />
       <workItem from="1593745257660" duration="3300000" />
+      <workItem from="1595057507581" duration="1884000" />
     </task>
     <servers />
   </component>
@@ -146,6 +231,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="296" y="94" key="#LearnSeckillApplication" timestamp="1595058775254">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="296" y="94" key="#LearnSeckillApplication/0.0.1536.824@0.0.1536.824" timestamp="1595058775254" />
     <state x="249" y="0" key="#Project_Structure" timestamp="1590153950700">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -174,38 +263,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591877608917" />
-    <state width="1493" height="268" key="GridCell.Tab.0.bottom" timestamp="1591801544263">
+    <state width="1493" height="339" key="GridCell.Tab.0.bottom" timestamp="1595059306975">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="268" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591801544263" />
-    <state width="1493" height="268" key="GridCell.Tab.0.center" timestamp="1591801544263">
+    <state width="1493" height="339" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595059306975" />
+    <state width="1493" height="339" key="GridCell.Tab.0.center" timestamp="1595059306975">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="268" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591801544263" />
-    <state width="1493" height="268" key="GridCell.Tab.0.left" timestamp="1591801544263">
+    <state width="1493" height="339" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595059306975" />
+    <state width="1493" height="339" key="GridCell.Tab.0.left" timestamp="1595059306975">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="268" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591801544263" />
-    <state width="1493" height="268" key="GridCell.Tab.0.right" timestamp="1591801544263">
+    <state width="1493" height="339" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595059306975" />
+    <state width="1493" height="339" key="GridCell.Tab.0.right" timestamp="1595059306975">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="268" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591801544263" />
-    <state width="1493" height="268" key="GridCell.Tab.1.bottom" timestamp="1591801544265">
+    <state width="1493" height="339" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595059306975" />
+    <state width="1493" height="339" key="GridCell.Tab.1.bottom" timestamp="1595059306976">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="268" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591801544265" />
-    <state width="1493" height="268" key="GridCell.Tab.1.center" timestamp="1591801544264">
+    <state width="1493" height="339" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595059306976" />
+    <state width="1493" height="339" key="GridCell.Tab.1.center" timestamp="1595059306976">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="268" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591801544264" />
-    <state width="1493" height="268" key="GridCell.Tab.1.left" timestamp="1591801544264">
+    <state width="1493" height="339" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1595059306976" />
+    <state width="1493" height="339" key="GridCell.Tab.1.left" timestamp="1595059306976">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="268" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591801544264" />
-    <state width="1493" height="268" key="GridCell.Tab.1.right" timestamp="1591801544264">
+    <state width="1493" height="339" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1595059306976" />
+    <state width="1493" height="339" key="GridCell.Tab.1.right" timestamp="1595059306976">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="268" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591801544264" />
+    <state width="1493" height="339" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595059306976" />
     <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1592375233748">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

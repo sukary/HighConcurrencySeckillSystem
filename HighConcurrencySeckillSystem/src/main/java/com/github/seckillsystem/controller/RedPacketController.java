@@ -38,8 +38,8 @@ public class RedPacketController{
     private static int corePoolSize = Runtime.getRuntime().availableProcessors();
     /**
      * 不建议使用jdk自带线程池，建议自定义线程池
-     * corePoolSize: 核心线程池数量
-     * maximumPoolSize ：最大线程池数量
+     * corePoolSize: 核心线程池数量 cpu密集性应用设置cpu核心数
+     * maximumPoolSize ：最大线程池数量 cpu核心数加一
      *keepAliveTime 当线程池线程数量大于corePoolSize时候，多出来的空闲线程，多长时间会被销毁。
      * workQueue 任务队列
      * threadFactory 线程工厂，用于创建线程，一般可以用默认的

@@ -9,7 +9,7 @@ import javax.jms.Destination;
  * activemq消息队列
  */
 @Component
-public class ActiveMqSender {
+public class ActiveMQSender {
     @Autowired
     private JmsMessagingTemplate jmsTemplate;
 
